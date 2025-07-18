@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00ff9d;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.error-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.error-container h1 {
+    color: #dc3545;
+}
+
+.error-container p {
+    color: #6c757d;
+}
+
+.error-container a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.error-container a:hover {
+    text-decoration: underline;
+}
+
+.fb{
+    background-color: white;
+    padding:80px;
+    width:fit-content;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.fb>img{
+    height: 100px;
+}
