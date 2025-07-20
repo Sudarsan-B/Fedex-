@@ -8,7 +8,7 @@ Backend: Flask (Python web framework), Google Maps API (for location data)
 
 Installation and Setup Prerequisites: Python 3.7 or higher Flask (pip install flask)
 
-Steps: Clone the repository: git clone https://github.com/surya5225/fedx_competition/edit/main cd route-optimization Install dependencies: pip install -r requirements.txt Obtain an API key for Google Maps: Go to the Google Cloud Console. Create a new project and enable the Maps JavaScript API and Places API. Generate an API key and replace the placeholder in index.html:
+Steps: Clone the repository: git clone cd route-optimization Install dependencies: pip install -r requirements.txt Obtain an API key for Google Maps: Go to the Google Cloud Console. Create a new project and enable the Maps JavaScript API and Places API. Generate an API key and replace the placeholder in index.html:
 
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
 Run the application: python app.py Access the application in your browser at http://127.0.0.1:5000.
